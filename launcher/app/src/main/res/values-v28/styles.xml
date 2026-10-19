@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TopButton" parent="TopButton.Base">
+        <item name="android:fontVariationSettings">\'wght\' 500</item>
+    </style>
+</resources>

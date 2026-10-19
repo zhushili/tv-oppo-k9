@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  OPPO 智能电视 (OPPOCNM632, Android 9) 的桌面配置。
+  改完运行 ./build-install.sh 重新构建安装。
+-->
+<resources>
+
+    <!-- 使用次数相同时的初始优先顺序；Dock 会按实际打开次数更新。 -->
+    <string-array name="dock_apps">
+        <item>com.ktcp.video</item>
+        <item>com.heytap.tv.filebrowser</item>
+    </string-array>
+
+    <!-- 隐藏的应用（包括 Dock）。 -->
+    <string-array name="hidden_apps">
+    </string-array>
+
+    <!-- 每行图标数（1–8）；Dock 也是这么多格。 -->
+    <integer name="columns">4</integer>
+</resources>

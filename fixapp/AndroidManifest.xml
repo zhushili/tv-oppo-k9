@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gathin.tvfix"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="27" />
+    <application android:label="TV Fix" android:hasCode="true"
+        android:process="com.heytap.tv.remote">
+        <activity android:name=".FixActivity" android:exported="true" />
+    </application>
+</manifest>

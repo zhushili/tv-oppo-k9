@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Android / Gradle build output
+.gradle/
+.gradle-home/
+launcher/.gradle/
+launcher/local.properties
+launcher/app/build/
+launcher/build/
+launcher/app/debug.keystore
+
+# Generated install helper
+fixapp/build/
+fixapp/fix.apk
+fixapp/fix.apk.idsig
+
+# Local artifacts (not part of the source repo)
+dist/
+backup/
+
+# Python test cache
+__pycache__/
+
+# IDE
+.idea/
+*.iml

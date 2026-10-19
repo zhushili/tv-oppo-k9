@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="page_padding_horizontal">56dp</dimen>
+    <dimen name="page_padding_top">26dp</dimen>
+    <dimen name="hero_margin_start">68dp</dimen>
+    <dimen name="hero_text_size">48sp</dimen>
+    <dimen name="greeting_text_size">13sp</dimen>
+    <dimen name="clock_text_size">53sp</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+    <dimen name="divider_height">26dp</dimen>
+    <dimen name="top_bar_margin_bottom">6dp</dimen>
+    <dimen name="grid_top_margin">10dp</dimen>
+    <dimen name="grid_padding_top">10dp</dimen>
+    <dimen name="grid_padding_bottom">16dp</dimen>
+    <dimen name="tile_width">180dp</dimen>
+    <dimen name="tile_height">101dp</dimen>
+    <dimen name="tile_radius">16dp</dimen>
+    <dimen name="pill_height">42dp</dimen>
+    <dimen name="pill_gap">10dp</dimen>
+    <dimen name="pill_padding_start">16dp</dimen>
+    <dimen name="pill_padding_end">20dp</dimen>
+    <dimen name="pill_text_size">15sp</dimen>
+    <dimen name="name_text_size">14sp</dimen>
+    <dimen name="library_header_height">92dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+# OPPO 智能电视 OPPOCNM632 (OPPO/OPPOCNM632, Android 9 / API 28, 2GB RAM, 8GB)
+# 生成于 2026-10-18，参考 Gathin23/tv-vibehack。
+#
+# 应用：  ./connect-tv.sh && ./disable-tv.sh debloat.txt
+# 恢复：  ./restore.sh debloat.txt
+#
+# 全部使用 pm disable-user --user 0 禁用（不是卸载），一条命令即可恢复。
+# 电视保留：文件管理、Live TV/HDMI、本地音乐/相册/视频播放器、蓝牙遥控、设置。
+# 已由出厂禁用的包（oobe、crashbox、factory、mcs、feedback 等）不在此列出。
+# 注意：com.heytap.tv.launcher 不在本文件里，由 build-install.sh 在装好新桌面后再禁用。
+
+# 内容平台登录（NewTV 中国互联网电视，原桌面的内容源；换桌面后不再需要）
+# 若云视听极光出现登录异常，恢复这一行即可。
+tv.newtv.loginservice
+
+# 搜索服务/热词推荐
+com.heytap.tv.search
+
+# OPPO ROM 控制与日志上报（nearx 埋点）
+com.heytap.rom.service
+
+# OPPO 云服务/推送核心服务
+com.heytap.msp.tv
+
+# 固件更新（用户选择不保留 OTA）
+com.heytap.tv.systemupgrade
+com.heytap.oprcupgradeservice
+
+# 微信互联/微信投屏（用户不使用）
+com.tencent.wxservice
+
+# OPPO 账号服务（本机未登录账号）
+com.oneplus.tv.android.account
+
+# OPPO 配件框架（蓝牙耳机/手表发现与扫描）。本机没有 OPPO 配件，已禁用。
+com.heytap.accessory
+
+# 投屏与 OPPO 手机互联（用户不使用）
+com.heytap.ars.sink
+com.oplus.onet

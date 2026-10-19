@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home</string>
+    <string name="settings">Settings</string>
+    <string name="good_morning">Good morning</string>
+    <string name="good_afternoon">Good afternoon</string>
+    <string name="good_evening">Good evening</string>
+    <string name="good_night">Good night</string>
+    <string name="not_available">Not available on this TV</string>
+    <string name="cant_open">Can\'t open %1$s</string>
+    <string name="date_format">EEEE  d MMMM</string>
+    <string name="dream_name">Clock</string>
+
+    <string name="menu_all_settings">All settings</string>
+    <string name="menu_picture">Picture mode</string>
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_apps">Apps</string>
+    <string name="dock_hint">↓  More apps</string>
+    <string name="more_apps">More apps</string>
+    <string name="library_hint">↑  Back to Dock     ·     OK  Open     ·     Hold OK  App info</string>
+    <plurals name="app_count">
+        <item quantity="one">%1$d app</item>
+        <item quantity="other">%1$d apps</item>
+    </plurals>
+</resources>
